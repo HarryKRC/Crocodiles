@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.15;
+}
+
+body {
+    background:rgb(255, 255, 255);
+    color: #283325;
+    font-family: 'Scope One', serif;
+}
+
+article, header {
+width: 80%;
+max-width: 800px;
+margin: auto;
+}
+
+
+
+.list li{
+    margin-bottom: 1rem;
+    list-style-type: none;
+    margin-left: 2rem;
+
+}
+
+img {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+    color: #283325;
+}
+
+/*---- Styling Typography ----*/
+h1, h2, blockquote {
+    color: #283325;
+    font-family: 'Scope One', serif;
+}
+
+p, blockquote {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: black;
+    font-weight: normal;
+    margin: 4rem 0 0.5rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin: 3rem 0 1rem 0;
+    color: #283325;
+    font-weight: normal;
+}
+
+blockquote {
+    font-size: 1.7rem;
+    font-style: italic;
+    margin: 0;
+    hanging-punctuation: first;
+    text-indent: -0.4rem;
+}
+
+cite {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #283325;
+    font-style: normal;
+}
+
+header h2 {
+    font-size: 2.3rem;
+    font-style: italic;
+    font-family: 'Scope One', serif;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
+
+header p { 
+    font-size: 1.4rem;
+    margin-bottom: 6rem;
+}
+
+/* ---- Styling Links ---- */
+a {
+    color: #283325;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #698460;
+    border-bottom: 1px dotted;
+}
+
+/* ---- Styling Nav ---- */
+nav {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #283325;
+    padding: 2rem 0;
+    font-size: 0.8rem;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: azure;
+}
+
+nav a:hover {
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo {
+    font-size: 1rem;
+    text-align: left;
+    padding-right: 45vw;
+    font-family: 'Scope One', serif;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;}
+
+.connections ul{
+    margin: 0;
+    padding: 0;}
+
+.connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  }
+
+.connections a:link{
+        border-bottom: none;       }
+
+.connections img, .connections svg{
+    border: none;}
+
+.connections a:hover img, .connections a:hover svg{
+    border-bottom: none;}
+
+ .connections svg {
+    margin: 2rem auto;}
+
+.connections a:hover svg path {
+    fill: #333;
+    transition: all 0.2s ease-in-out;}
+
+footer .connections a:hover svg path {
+    fill:  #50654a;
+    transition: all 0.2s ease-in-out;}
+
+footer {
+    background: #283325;
+    text-align: center;
+    font-size: 0.6rem;
+    color: azure;
+    padding: 2rem 0 1.5rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0 8rem;
+}
+
+.dropcap {
+    font-family: 'Scope One', serif;
+    float: left;
+    line-height: 90%;
+    width: 0.9rem;
+    font-size: 150%;
+    margin: auto;
+}
+
+/*---- Adding Media Queries For different devices ----*/
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        margin: 1rem 0 0.5rem;
+    }
+    
+
+    header h2 {
+        font-size: 1.6rem;
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+    }
+
+    article, header {
+        width: 90%;
+        margin: auto;
+        }
+
+}
+
+@media (max-width: 465px) {
+    h1 {
+        font-size: 2rem;
+        margin: 1rem 0 0.5rem;
+    }
+    
+
+    header h2 {
+        font-size: 1.6rem;
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+    }
+
+    article, header {
+        width: 90%;
+        margin: auto;
+        }
+
+}
